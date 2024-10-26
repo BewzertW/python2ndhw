@@ -1,0 +1,19 @@
+class Cat:
+    def __init__(self, name, weight, height, breed, age, thingsdonetoday):
+        self.weight = weight
+        self.height = height
+        self.breed = breed
+        self.age = age
+        self.name = name
+        self.thingsdonetoday = thingsdonetoday
+    def info(self):
+        print("breed:", self.breed)
+        print("weight:", self.weight)
+        print("height:", self.height)
+        print("name:", self.name)
+        print("age:", self.age)
+        print("things have done today:", self.thingsdonetoday)
+        
+    
+kotik = Cat('bonya', '4kg', '50cm', 'scottish', '2yrs', 'had breakfast, went to the toilet, lay on the bed, played with fake mouse')
+kotik.info()
